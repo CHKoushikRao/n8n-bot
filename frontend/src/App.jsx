@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CreateWorkflow from './Components/CreateWorkflow';
+import CreateWorkflow from './components/CreateWorkflow';
 
 function Home() {
   return (
