@@ -114,7 +114,7 @@ export default function TriggerSheet({ onSelect }: { onSelect: (trigger: string,
                 </SheetHeader>
 
                 <SheetFooter>
-                    <Button type="submit" onClick={() => { onSelect(selectedTrigger, metadata) }}>Create Trigger</Button>
+                    <Button type="submit" onClick={() => { onSelect(selectedTrigger, metadata) }}>Create KTrigger</Button>
                 </SheetFooter>
             </SheetContent>
         </Sheet>
